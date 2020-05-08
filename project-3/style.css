@@ -1,0 +1,105 @@
+*{
+margin: 0;
+padding: 0;
+}
+body{
+
+    font-family: 'Playfair Display', serif;
+}
+.img-responsive{
+max-width: 100%;
+
+
+
+}
+.hero-image{
+
+background: url(images/food.jpg)no-repeat ;
+height: 150vh;
+background-size: cover;
+position: s;
+
+}
+.hero-wrapper{
+
+color: white;
+position: absolute;
+left: 50%;
+top: 50%;
+transform: translate(-50%,50%);
+
+
+}
+.hero-wrapper h1,h2{
+    font-size: 2.4rem;
+text-align: center;
+color:whitesmoke;
+
+}
+.hero-wrapper h2{
+
+
+    font-size: 2rem;
+    text-align: center;
+    color: whitesmoke;
+}
+.hero-wrapper span{
+text-align: center;
+
+
+}
+.form-code{
+text-align: center;
+
+
+}
+.form-code .post-code{
+
+display: block;
+width: 80%;
+margin-left: auto;
+margin-right: auto;
+border-radius: 3rem;
+padding: .4rem;
+border: none;
+outline: none;
+
+
+}
+.hero-wrapper button{
+    width: 20%;
+    background-color:teal;
+    color: white;
+    padding: .6rem;
+    margin: 1rem auto 0rem;
+    border-radius: 3rem;
+    border: none;
+
+
+}
+.clear-div{
+
+
+    clear: both;
+}
+
+/*----product section----*/
+.product{
+
+
+width: 80%;
+margin-left: auto;
+margin-right: auto;
+
+}
+.product-list-item{
+float: left;;
+width: 29.33%;
+margin: 10 10 10 10;
+
+
+
+}
+
+
+
